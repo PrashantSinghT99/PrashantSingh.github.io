@@ -826,6 +826,7 @@ background-color: #57cc99;
 
     .navigation-container div.navigations ul li a {
         font-size: 1.8rem;
+        margin-right: 10px;
     }
 
 
