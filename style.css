@@ -828,6 +828,9 @@ background-color: #57cc99;
         font-size: 1.8rem;
         margin-right: 10px;
     }
+    #experience .experience-item{
+        flex-basis: 70%;
+    }
 
 
 
