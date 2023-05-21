@@ -517,6 +517,11 @@ font-size: 1.3rem;
     margin-right: auto;
     letter-spacing: 0.5rem;
 }
+#project .project-item #video
+{
+  margin-top: 3rem;
+  width:60%;
+}
 
 /* End projects section */
 
