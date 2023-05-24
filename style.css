@@ -935,7 +935,7 @@ background-color: #57cc99;
     }
     #project .project-item #video
     {
-        width:80%
+        width: 220px;
     }
 }
 
@@ -994,7 +994,7 @@ background-color: #57cc99;
     }
     #project .project-item #video
     {
-        width:80%
+        width: 350px;
     }
 }
 
