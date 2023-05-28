@@ -484,12 +484,12 @@ p {
   color: white;
   font-weight: bold;
   cursor: pointer;
-  margin: 50px;
+  margin-top: 2rem;
   width: 200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
 }
 #project .project-item #video {
   margin-top: 3rem;
