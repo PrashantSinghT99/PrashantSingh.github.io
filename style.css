@@ -208,6 +208,7 @@ p {
   z-index: 1;
 }
 
+
 /* overlay */
 
 #hero::after {
@@ -273,6 +274,23 @@ p {
 
 #hero h1:nth-child(3) span {
   animation-delay: 2.5s;
+}
+
+.hero__content-align {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.latestphoto {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 8rem;
+  opacity: 0.8;
+}
+
+.latestphoto__img {
+  border-radius: 50% 50% 51% 49% / 22% 22% 78% 78%;
 }
 
 .projectButton {
@@ -368,6 +386,7 @@ p {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+
 #experience .experience-item li {
   font-size: 1.3rem;
   color: white;
@@ -427,12 +446,14 @@ p {
   /* background: linear-gradient(180deg, hsla(15, 10%, 62%, 1) 0%, hsla(15, 10%, 62%, 1) 100%); */
   color: black;
 }
+
 #project .project-info li {
   margin-top: 20px;
   margin-bottom: 5px;
   letter-spacing: 0.1rem;
   font-size: 1.3rem;
 }
+
 #project .project-image img {
   flex-basis: 50%;
   height: 100px;
@@ -491,10 +512,12 @@ p {
   margin-right: auto;
   letter-spacing: 0.2rem;
 }
+
 #project .project-item #video {
   margin-top: 3rem;
   width: 55%;
 }
+
 #video-project {
   padding-left: 150px;
 }
@@ -550,13 +573,11 @@ p {
 #bottom {
   /* background-color: grey; */
   min-height: 200px;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
   position: relative;
   z-index: 100;
 }
@@ -624,6 +645,7 @@ p {
 #bottom .initial .profilesummary h2 span:nth-child(3) {
   color: rgb(51, 212, 51);
 }
+
 /* END OF BOTTOM SECTION  */
 
 /* MESSAGE SECTION  */
@@ -631,6 +653,7 @@ p {
 #message {
   background-color: #e0e0e2;
 }
+
 #message .messageform {
   display: flex;
   justify-content: center;
@@ -642,19 +665,23 @@ p {
 
   transform: uppercase;
 }
+
 #message .messageform form {
   margin: 0 auto;
   height: 100vh;
 }
+
 #message .messageform div {
   font-size: 2rem;
   padding: 6px 0px;
 }
+
 #message .messageform div .form-label {
   font-size: 2rem;
   margin: 25px 0px;
   font-weight: 500;
 }
+
 /* not share email  */
 #message .messageform div.form-text {
   font-size: 10px;
@@ -670,6 +697,7 @@ p {
   border: 0;
   border-radius: 10px;
 }
+
 /* work with me  */
 #message .messageform .check label {
   position: absolute;
@@ -683,6 +711,7 @@ p {
   margin-bottom: 5px;
   margin-top: 23px;
 }
+
 button.btn {
   padding: 10px;
   border-radius: 20px;
@@ -694,9 +723,11 @@ button.btn {
   width: 120px;
   margin-top: 10px;
 }
+
 button.btn:hover {
   background-color: #57cc99;
 }
+
 #message .messageform span#msg {
   text-align: center;
   font-size: 1.5rem;
@@ -778,6 +809,7 @@ button.btn:hover {
     font-size: 1.8rem;
     margin-right: 10px;
   }
+
   #experience .experience-item {
     flex-basis: 70%;
   }
@@ -788,7 +820,9 @@ button.btn:hover {
   .title {
     font-size: 4rem;
   }
-
+  .latestphoto {
+    display: none;
+}
   .title {
     font-size: 3rem;
   }
@@ -806,6 +840,7 @@ button.btn:hover {
     text-align: left;
     letter-spacing: 0;
   }
+
   p.profile {
     font-size: 1.3rem;
     text-align: center;
@@ -857,15 +892,19 @@ button.btn:hover {
   #bottom .name {
     font-size: 1.5rem;
   }
+
   #navigation-bar .hamburger {
     margin-right: 4px;
   }
+
   .navigation-container div.navigations ul a::after {
     font-size: 5rem;
   }
+
   #video-project {
     padding-left: 30px;
   }
+
   #project .project-item #video {
     width: 220px;
   }
@@ -883,6 +922,12 @@ button.btn:hover {
     padding-top: 10px;
   }
 
+  .latestphoto {
+    width: 22rem;
+    height: 25rem;
+    margin-right: 5rem;
+    opacity: 0.8;
+}
   .projectButton {
     font-size: 2rem;
   }
@@ -913,16 +958,20 @@ button.btn:hover {
     margin-left: 0;
     margin-right: 0;
   }
+
   #contact .contact-item {
     width: 80vw;
     margin-left: -23px;
   }
+
   #navigation-bar div.navigation-container {
     min-height: 6vh;
   }
+
   #video-project {
     padding-left: 50px;
   }
+
   #project .project-item #video {
     width: 350px;
   }
@@ -952,6 +1001,7 @@ button.btn:hover {
     height: 70px;
     width: 70px;
   }
+
   #project .project-item #video {
     width: 350px;
   }
