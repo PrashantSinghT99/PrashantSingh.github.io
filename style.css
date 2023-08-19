@@ -619,6 +619,7 @@ p {
   justify-content: space-evenly;
   align-items: start;
   opacity: 1;
+  margin-top: 10px;
 }
 
 #bottom .social-item {
