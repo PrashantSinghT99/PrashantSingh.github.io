@@ -29,4 +29,40 @@ sideNav.forEach((item)=>{
 
 
 
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyMfwUplqRfnHz-cVtDlrJuKV0zBNethpVMAY0tN4pi9vdSWrn4bzEjCP5SkBPegJeW3w/exec'
+const form = document.forms['submit-to-google-sheet']
+const message = document.getElementById("msg")
+
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+    .then(response => {
+      message.innerHTML = "Thank you ! Message sent successfully to Mr.Prashant!"
+      setTimeout(() => {
+        msg.innerHTML = ''
+
+      }, 5000)
+      form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+// script.js
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+window.addEventListener("scroll", () => {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopBtn.style.display = "block";
+} else {
+scrollToTopBtn.style.display = "none";
+}
+});
+
+scrollToTopBtn.addEventListener("click", () => {
+document.body.scrollTop = 0;  // For Safari
+document.documentElement.scrollTop = 0;  // For Chrome, Firefox, IE, and Opera
+});
+
+
+
 

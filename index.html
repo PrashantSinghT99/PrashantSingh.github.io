@@ -314,34 +314,13 @@
           <!-- <div class="social-item"> <a href=""><img src="images/facebook.png"></a></div>
           <div class="social-item"> <a href=""><img src="images/insta.png"></a></div> -->
         </div>
-        <h3>NO COPYRIGHT ISSUE&#169; 2022 PRASHANT FEEL FREE TO COPY</h3>
+        <h3>&#169; 2022 PRASHANT</h3>
+        <span id="scrollToTopBtn">&#8593;</span>
       </div>
     </div>
 
   </section>
   <script src="portfolio.js">
-  </script>
-  <script>
-
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMfwUplqRfnHz-cVtDlrJuKV0zBNethpVMAY0tN4pi9vdSWrn4bzEjCP5SkBPegJeW3w/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const message = document.getElementById("msg")
-
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => {
-          message.innerHTML = "Thank you ! Message sent successfully to Mr.Prashant!"
-          setTimeout(() => {
-            msg.innerHTML = ''
-
-          }, 5000)
-          form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-
   </script>
 </body>
 
